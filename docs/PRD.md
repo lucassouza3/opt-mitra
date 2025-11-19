@@ -238,8 +238,10 @@ Este tutorial precisa ser revisado e expandido conforme as novas funcionalidades
 - **Validação de volume**: criar tarefas diárias que comparam o número de registros processados com médias históricas; se ficar abaixo de um limite, deve gerar alerta.
     - _19/11/2025_: Criado `VolumeValidator` em `infra/monitoring/volume_guard.py` com testes (`tests/infra/monitoring/test_volume_guard.py`).
 - **Auto-recovery**: o scheduler deve tentar religar jobs com `Retry` configurado e, após N falhas, abrir chamado automático (e-mail/Telegram).
+    - _19/11/2025_: Implementado `RetryRunner` (`infra/auto_recovery/retry_runner.py`) e comando CLI `run-with-retry` para encapsular tentativas.
 - **Verificações do cron**: script `cron_guardian.sh` roda a cada hora, lista o `crontab`, valida timestamps (`last_run_at`) e envia alerta se algum job estiver atrasado em mais de 7 dias.
     - _19/11/2025_: Disponibilizado `infra/monitoring/cron_guardian.py` para ser executado via cron e alertar jobs atrasados.
+- **Scheduler unificado**: CLI `run-schedule` e módulo `infra/scheduler/runner.py` criados para executar os jobs definidos em JSON (substitui check_and_run).
 - **Teste sintético**: gerar arquivos de exemplo semanalmente para garantir que o pipeline está aceitando entradas. Se o arquivo de teste não chegar ao destino, o sistema dispara alerta.
 - **Auditoria de cargas FindFace**: scripts periódicos comparam o total de registros locais vs FindFace; divergência acima de 5% aciona análise.
 - **Playbook de contingência**: manter instruções claras (item 13.8) para reiniciar serviços, limpar filas e rodar jobs manualmente, garantindo que o sistema não fique meses parado sem ninguém notar.

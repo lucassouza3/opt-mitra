@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import subprocess
 import sys
 from datetime import UTC, datetime
 from pathlib import Path
@@ -14,6 +15,7 @@ from core.use_cases import RegisterNistInput
 from infra.auto_recovery import RetryRunner
 from infra.container import build_container, get_data_dir
 from infra.monitoring import VolumeValidator
+from infra.scheduler import JobScheduler, SchedulerResult, load_schedule
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -70,7 +72,13 @@ def build_parser() -> argparse.ArgumentParser:
     retry.add_argument("--max-attempts", type=int, default=3)
     retry.add_argument("--delay", type=float, default=5.0)
     retry.add_argument("--label", required=True, help="Nome do job.")
-    retry.add_argument("--", dest="cmd", nargs=argparse.REMAINDER, help="Comando a ser executado.")
+    retry.add_argument("cmd", nargs=argparse.REMAINDER, help="Comando a ser executado.")
+
+    run_schedule = subparsers.add_parser(
+        "run-schedule",
+        help="Executa o scheduler baseado em um arquivo de configuração JSON.",
+    )
+    run_schedule.add_argument("--config", type=Path, required=True, help="Arquivo JSON com os jobs.")
 
     return parser
 
@@ -127,6 +135,36 @@ def handle_volume_check(args: argparse.Namespace) -> int:
     return 0
 
 
+def handle_run_with_retry(args: argparse.Namespace) -> int:
+    """Executa um comando arbitrário com tentativas automáticas."""
+    cmd = list(args.cmd)
+    if cmd and cmd[0] == "--":
+        cmd = cmd[1:]
+    if not cmd:
+        raise ValueError("Nenhum comando informado.")
+    runner = RetryRunner(max_attempts=args.max_attempts, delay_seconds=args.delay)
+
+    def task() -> None:
+        result = subprocess.run(cmd, check=False)
+        if result.returncode != 0:
+            raise RuntimeError(f"Comando retornou {result.returncode}")
+
+    result = runner.run(task, label=args.label)
+    return 0 if result.success else 1
+
+
+def handle_run_schedule(args: argparse.Namespace) -> int:
+    """Executa o agendador com base na configuração informada."""
+    jobs = load_schedule(args.config)
+    scheduler = JobScheduler()
+    result = scheduler.run(jobs)
+    if not jobs:
+        print("Nenhum job definido na configuração.")
+    if result.failures:
+        print(f"Falha nos jobs: {', '.join(result.failures)}", file=sys.stderr)
+    return 0 if result.success else 1
+
+
 def main(argv: list[str] | None = None) -> int:
     """Ponto de entrada principal utilizado pelo CLI e pelos testes."""
     parser = build_parser()
@@ -145,6 +183,8 @@ def main(argv: list[str] | None = None) -> int:
             return handle_volume_check(args)
         elif args.command == "run-with-retry":
             return handle_run_with_retry(args)
+        elif args.command == "run-schedule":
+            return handle_run_schedule(args)
         else:  # pragma: no cover
             parser.error("Comando desconhecido.")
     except (UseCaseError, ValueError, FileNotFoundError, json.JSONDecodeError) as exc:

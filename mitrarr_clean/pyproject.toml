@@ -1,0 +1,42 @@
+[tool.poetry]
+name = "mitrarr-clean"
+version = "0.1.0"
+description = "Nova implementacao MITRARR com DDD, TDD e Clean Architecture"
+authors = ["Equipe MITRARR <mitrarr@example.com>"]
+readme = "README.md"
+packages = [{ include = "apps" }, { include = "core" }, { include = "infra" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.7"
+structlog = "^24.1"
+requests = "^2.32"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3"
+pytest-cov = "^5.0"
+ruff = "^0.6"
+mypy = "^1.11"
+black = "^24.3"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+
+[tool.black]
+target-version = ["py310"]
+line-length = 100
+
+[tool.ruff]
+line-length = 100
+select = ["E", "F", "I", "B"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_unused_configs = true
+warn_return_any = true
+strict_optional = true
+ignore_missing_imports = true
+
+[build-system]
+requires = ["poetry-core>=1.8.0"]
+build-backend = "poetry.core.masonry.api"
