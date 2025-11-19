@@ -89,13 +89,24 @@ Cada user story deve iniciar como teste falhando (Red) → implementação míni
    - _19/11/2025_: CLI ganhou o comando `run-schedule` e o módulo `infra/scheduler/runner.py` que lê configurações JSON (ver `configs/schedule_template.json`).
    - Expor API REST/GraphQL para pausar/resumir jobs.
      - _19/11/2025_: API FastAPI (`infra/api/server.py`) com endpoints de listagem/pausa/reinício criada e coberta por testes.
-5. **Fase 5 – Migração / Go-Live**
-    - Centralizar logs (JSON) + enviar métricas para Prometheus/ELK.
-    - Substituir `.out` por loggers com `structlog` e retention.
-    - _19/11/2025_: Criado `AlertDispatcher` + comando `emit-alert` para registro manual/automático de alertas.
+5. **Fase 4 – Monitoramento e Alertas**
+   - Centralizar logs (JSON) + enviar métricas para Prometheus/ELK.
+   - Substituir `.out` por loggers com `structlog` e retention.
+   - _19/11/2025_: Criado `AlertDispatcher` + comando `emit-alert` para registro manual/automático de alertas.
 6. **Fase 5 – Migração/Go-Live**
    - Executar pipelines em paralelo (novo x legado) e comparar resultados.
    - Trocar gradualmente crons para apontar ao novo scheduler.
+7. **Fase 6 – Portar `ws-nist`**
+   - Refatorar gradualmente os scripts `findface/ws-nist` para módulos dentro de `mitrarr_clean`.
+   - Garantir equivalência funcional (stimar, relacionamentos, exportações) e cobertura de testes.
+8. **Fase 7 – Portar `scripts_mitrarr`**
+   - Converter cada `run_*.sh` e `check_and_run_*` para comandos da CLI ou jobs do scheduler.
+   - Documentar JSONs específicos e validá-los com testes automatizados.
+9. **Fase 8 – Portar `ajusta_findface`**
+   - Migrar rotinas de ajuste/limpeza (ex.: exclusões de perfis) para a nova base.
+   - Aplicar TDD e padrões SOLID/DDD em cada script portado.
+10. **Fase 9 – Demais subprojetos (`canaime`, `nist_downloader`, `sincronizapf`, `telegram-bot`, `wspcrr2`)**
+    - Definir prioridades e migrar módulo por módulo, mantendo o mesmo rigor (planejamento + TDD).
 
 ## 9. Backup e Gestão de Ambientes
 - Pasta `legacy_backups/` obrigatória antes de qualquer refatoração.
