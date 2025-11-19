@@ -88,6 +88,7 @@ Cada user story deve iniciar como teste falhando (Red) → implementação míni
    - Introduzir serviço `scheduler` (Celery Beat, APScheduler ou Temporal) que substitua `check_and_run`, respeitando os horários definidos no crontab padronizado.
    - _19/11/2025_: CLI ganhou o comando `run-schedule` e o módulo `infra/scheduler/runner.py` que lê configurações JSON (ver `configs/schedule_template.json`).
    - Expor API REST/GraphQL para pausar/resumir jobs.
+     - _19/11/2025_: API FastAPI (`infra/api/server.py`) com endpoints de listagem/pausa/reinício criada e coberta por testes.
 5. **Fase 4 – Monitoramento e Alertas**
    - Centralizar logs (JSON) + enviar métricas para Prometheus/ELK.
    - Substituir `.out` por loggers com `structlog` e retention.
