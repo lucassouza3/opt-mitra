@@ -1,35 +1,62 @@
 # Tutorial MITRARR (Reescrita)
 
 ## Visão Geral
-O novo MITRARR é composto pelo scheduler (`run-schedule`), casos de uso (`RegisterNist`, `SendToFindFace`, etc.), monitoramento (`cron_guardian`, `VolumeValidator`, `AlertDispatcher`) e uma API para pausar/resumir jobs. Todo fluxo roda em servidores Linux acessados via MobaXterm.
+O MITRARR reescrito centraliza ingestão de NISTs, agendamento e monitoramento em torno do scheduler (`run-schedule`), comandos da CLI e serviços de apoio (API, alertas). Todos os passos abaixo assumem que você está em servidores Linux acessados via MobaXterm, com TDD obrigatório e logs centralizados.
 
-## Passo a Passo
-1. **Preparar Ambiente**
-   - Acesse via MobaXterm (`ssh findface@servidor`).
-   - Ative a venv: `source /opt/findface/mitrarr_clean/.venv/bin/activate`.
-   - Rode `python -m infra.cli.main help` para verificar comandos disponíveis.
-
-2. **Registrar e enviar NISTs**
+## 1. Preparar Ambiente
+1. Conecte via MobaXterm (`ssh findface@servidor`).
+2. Ative a venv do projeto novo:
+   ```bash
+   cd /opt/findface/mitrarr_clean
+   source .venv/bin/activate
    ```
-   python -m infra.cli.main register-nist --id TESTE --source DETRAN --file /caminho/arquivo.nst
-   python -m infra.cli.main send-to-findface --batch-size 50
+3. Liste os comandos disponíveis:
+   ```bash
+   python -m infra.cli.main --help
    ```
 
-3. **Monitoramento**
-   - `cron_guardian`: verifica heartbeats. Configurar no cron com `*/30 * * * * python -m infra.cli.main run-schedule --config /opt/findface/configs/guardian.json`.
-   - `check-volume`: `python -m infra.cli.main check-volume --history /opt/findface/configs/volumes.json --label adiciona_nists --current 120`.
-   - Alertas manuais: `python -m infra.cli.main emit-alert --type manual --job jobX --message "..."`.
+## 2. Operações Diárias
+- **Registrar NIST**:
+  ```bash
+  python -m infra.cli.main register-nist --id 2025001 --source DETRAN --file /dados/arquivo.nst
+  ```
+- **Enviar ao FindFace**:
+  ```bash
+  python -m infra.cli.main send-to-findface --batch-size 50
+  ```
+- **Scheduler**:
+  ```bash
+  python -m infra.cli.main run-schedule --config /opt/findface/configs/prod_schedule.json
+  ```
+- **Pausar job via API**:
+  ```bash
+  curl -X POST http://localhost:8000/jobs/job_a/pause
+  ```
 
-4. **Scheduler**
-   - Configurar JSONs em `/opt/findface/configs/*.json`.
-   - Executar manualmente: `python -m infra.cli.main run-schedule --config /opt/findface/configs/prod.json`.
-   - Pausar job pelo API: `POST /jobs/<nome>/pause`.
+## 3. Monitoramento
+1. **Volume**:
+   ```bash
+   python -m infra.cli.main check-volume --history /opt/findface/configs/volumes.json --label adiciona_nists --current 120
+   ```
+2. **Heartbeats**:
+   - Cron sugerido: `*/30 * * * * python -m infra.cli.main run-schedule --config /opt/findface/configs/guardian.json`
+3. **Alertas**:
+   ```bash
+   python -m infra.cli.main emit-alert --type manual --job job_a --severity warning --message "Verificar volume"
+   ```
 
-5. **Troubleshooting**
-   - **Reiniciar**: `sudo systemctl restart cron`.
-   - **Limpar filas**: `scheduler-cli pause job`, limpar diretório e `scheduler-cli resume`.
-   - **Ver volume baixo**: usar `check-volume` e `emit-alert`.
+## 4. Troubleshooting
+- **Reiniciar scheduler/cron**:
+  ```bash
+  sudo systemctl restart cron
+  ```
+- **Filas congestionadas**:
+  1. Pause job (`scheduler-cli pause job_a`).
+  2. Limpe diretórios temporários ou registros travados.
+  3. Retome (`scheduler-cli resume job_a`).
+- **Volumes abaixo do esperado**: rode `check-volume` e, se necessário, `emit-alert`.
 
-## Contatos / Logs
-- Logs em `/opt/findface/mitrarr_clean/logs`.
-- Alertas: `/opt/findface/mitrarr_clean/logs/alerts.log`.
+## 5. Logs / Contatos
+- Logs principais: `/opt/findface/mitrarr_clean/logs`.
+- Alertas registrados em `/opt/findface/mitrarr_clean/logs/alerts.log`.
+- Para dúvidas de dados sensíveis, consulte o responsável pela operação de inteligência ou o DPO.
