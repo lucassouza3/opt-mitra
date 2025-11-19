@@ -1,0 +1,13 @@
+[Unit]
+Description=Mount /mnt/mitra_temp to /mnt/mitra using bindfs
+After=local-fs.target
+Requires=local-fs.target
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/usr/local/bin/mount_mitra.sh
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target

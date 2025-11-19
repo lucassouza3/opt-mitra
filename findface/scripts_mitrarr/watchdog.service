@@ -1,0 +1,24 @@
+[Unit]
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=findface
+Group=findface
+WorkingDirectory=/opt/findface/ws-nist/
+ExecStart=/opt/findface/ws-nist/venv/bin/python /opt/findface/ws-nist/watchdog-app.py
+
+Environment=ORACLE_USER="S_MITRARR"
+Environment=ORACLE_PASSWORD="S_MITRARR"
+Environment=ORACLE_DSN="eccpxv1102-scan.pf.gov.br/PDBDPF05P.pf.gov.br"
+Environment=PG_USER="postgres"
+Environment=PG_PASSWORD="Mitra2021"
+Environment=PG_HOST="localhost"
+Environment=FINDFACE_USER="s_mitra"
+Environment=FINDFACE_PASSWORD="#MitraRR@2021!"
+
+[Install]
+WantedBy=multi-user.target

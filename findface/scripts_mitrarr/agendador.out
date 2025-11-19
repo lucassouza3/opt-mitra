@@ -1,0 +1,30 @@
+[FindfaceConnection] Login successful
+Status do grupo de câmeras 'MERCADOS' alterado para: False
+Status do grupo de câmeras 'AEROPORTO' alterado para: True
+Status da lista 'RR/DICAP-ALBERGADOS' alterado para: True
+[FindfaceConnection] Logout successful
+2025-11-18 12:18:46 - Agendador não encontrado. Iniciando...
+[FindfaceConnection] Login successful
+[FindfaceConnection] Logout successful
+Traceback (most recent call last):
+  File "/opt/findface/ws-nist/agendador.py", line 16, in <module>
+    agenda = json.load(f)
+             ^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+           ^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 7 column 9 (char 65)
+2025-11-18 12:25:49 - Agendador não encontrado. Iniciando...
+Agenda inválida. Cópia gerada em '/opt/findface/ws-nist/tarefas_agendadas.json.corrompido'. Erro: Expecting value: line 7 column 9 (char 65)
+2025-11-18 12:30:29 - Agendador não encontrado. Iniciando...
+[FindfaceConnection] Login successful
+Status da lista 'RR/DICAP-ALBERGADOS' alterado para: False
+[FindfaceConnection] Logout successful

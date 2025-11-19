@@ -1,0 +1,20 @@
+[Unit]
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=findface
+Group=findface
+WorkingDirectory=/opt/findface/telegram-bot/
+ExecStart=/opt/findface/telegram-bot/venv/bin/python /opt/findface/telegram-bot/bot.py
+
+Environment=USUARIO_CONSULTA_FF="consulta"
+Environment=SENHA_CONSULTA_FF="Mitra2021"
+Environment=TELEGRAM_BOT_FINDFACE_URL="https://findface2-mitrarr.ddns.net"
+Environment=TELEGRAM_BOT_TOKEN="7284330919:AAHTGJE8V67PystQz7bxtEL0ZNQAqfuWe9Y"
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,1273 @@
+🗑️  SCRIPT OTIMIZADO DE EXCLUSÃO DE CARDS - FINDFACE
+   Watch List: MA/CIVIL (ID 24)
+   Critérios: Mulheres (todas idades) + Homens (até 12 anos)
+   Otimização: AMBOS critérios por página (uma única passagem)
+   Paralelismo: 10 threads simultâneas por página
+============================================================
+
+🔗 Conectando ao Findface...
+login realizado
+✅ Conexão estabelecida!
+
+📊 Verificando se há cards na watch list MA/CIVIL...
+✅ Encontrados cards na watch list MA/CIVIL!
+📋 Exemplo dos primeiros cards:
+   1. Card 10497422 - Sexo: M
+   2. Card 10497420 - Sexo: M
+   3. Card 10497419 - Sexo: M
+📄 Paginação disponível - processamento continuará além da primeira página
+📋 Carregadas 27 watch lists no cache
+⏰ Início da operação: 2025-11-07 21:05:28
+
+🎯 INICIANDO EXCLUSÃO OTIMIZADA: Mulheres + Homens ≤12 anos - MODO PARALELO
+   📋 Processamento: AMBOS critérios por página (uma única passagem)
+
+📄 Processando página 1...
+   📊 Página 1: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 1: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 2...
+   📊 Página 2: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 2: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 3...
+   📊 Página 3: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 3: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 4...
+   📊 Página 4: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 4: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 5...
+   📊 Página 5: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 5: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 6...
+   📊 Página 6: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 6: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 7...
+   📊 Página 7: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 7: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 8...
+   📊 Página 8: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 8: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 9...
+   📊 Página 9: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 9: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 10...
+   📊 Página 10: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 10: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 11...
+   📊 Página 11: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 11: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 12...
+   📊 Página 12: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 12: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 13...
+   📊 Página 13: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 13: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 14...
+   📊 Página 14: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 14: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 15...
+   📊 Página 15: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 15: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 16...
+   📊 Página 16: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 16: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 17...
+   📊 Página 17: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 17: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 18...
+   📊 Página 18: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 18: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 19...
+   📊 Página 19: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 19: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 20...
+   📊 Página 20: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 20: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 21...
+   📊 Página 21: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 21: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 22...
+   📊 Página 22: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 22: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 23...
+   📊 Página 23: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 23: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 24...
+   📊 Página 24: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 24: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 25...
+   📊 Página 25: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 25: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 26...
+   📊 Página 26: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 26: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 27...
+   📊 Página 27: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 27: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 28...
+   📊 Página 28: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 28: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 29...
+   📊 Página 29: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 29: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 30...
+   📊 Página 30: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 30: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 31...
+   📊 Página 31: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 31: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 32...
+   📊 Página 32: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 32: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 33...
+   📊 Página 33: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 33: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 34...
+   📊 Página 34: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 34: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 35...
+   📊 Página 35: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 35: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 36...
+   📊 Página 36: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 36: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 37...
+   📊 Página 37: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 37: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 38...
+   📊 Página 38: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 38: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 39...
+   📊 Página 39: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 39: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 40...
+   📊 Página 40: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 40: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 41...
+   📊 Página 41: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 41: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 42...
+   📊 Página 42: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 42: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 43...
+   📊 Página 43: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 43: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 44...
+   📊 Página 44: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 44: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 45...
+   📊 Página 45: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 45: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 46...
+   📊 Página 46: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 46: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 47...
+   📊 Página 47: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 47: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 48...
+   📊 Página 48: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 48: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 49...
+   📊 Página 49: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 49: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 50...
+   📊 Página 50: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 50: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 51...
+   📊 Página 51: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 51: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 52...
+   📊 Página 52: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 52: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 53...
+   📊 Página 53: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 53: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 54...
+   📊 Página 54: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 54: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 55...
+   📊 Página 55: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 55: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 56...
+   📊 Página 56: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 56: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 57...
+   📊 Página 57: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 57: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 58...
+   📊 Página 58: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 58: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 59...
+   📊 Página 59: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 59: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 60...
+   📊 Página 60: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 60: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 61...
+   📊 Página 61: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 61: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 62...
+   📊 Página 62: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 62: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 63...
+   📊 Página 63: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 63: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 64...
+   📊 Página 64: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 64: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 65...
+   📊 Página 65: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 65: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 66...
+   📊 Página 66: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 66: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 67...
+   📊 Página 67: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 67: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 68...
+   📊 Página 68: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 68: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 69...
+   📊 Página 69: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 69: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 70...
+   📊 Página 70: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 70: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 71...
+   📊 Página 71: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 71: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 72...
+   📊 Página 72: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 72: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 73...
+   📊 Página 73: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 73: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 74...
+   📊 Página 74: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 74: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 75...
+   📊 Página 75: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 75: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 76...
+   📊 Página 76: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 76: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 77...
+   📊 Página 77: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 77: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 78...
+   📊 Página 78: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 78: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 79...
+   📊 Página 79: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 79: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 80...
+   📊 Página 80: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 80: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 81...
+   📊 Página 81: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 81: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 82...
+   📊 Página 82: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 82: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 83...
+   📊 Página 83: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 83: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 84...
+   📊 Página 84: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 84: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 85...
+   📊 Página 85: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 85: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 86...
+   📊 Página 86: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 86: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 87...
+   📊 Página 87: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 87: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 88...
+   📊 Página 88: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 88: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 89...
+   📊 Página 89: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 89: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 90...
+   📊 Página 90: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 90: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 91...
+   📊 Página 91: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 91: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 92...
+   📊 Página 92: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 92: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 93...
+   📊 Página 93: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 93: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 94...
+   📊 Página 94: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 94: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 95...
+   📊 Página 95: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 95: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 96...
+   📊 Página 96: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 96: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 97...
+   📊 Página 97: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 97: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 98...
+   📊 Página 98: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 98: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 99...
+   📊 Página 99: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 99: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 100...
+   📊 Página 100: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 100: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 101...
+   📊 Página 101: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 101: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 102...
+   📊 Página 102: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 102: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 103...
+   📊 Página 103: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 103: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 104...
+   📊 Página 104: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 104: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 105...
+   📊 Página 105: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 105: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 106...
+   📊 Página 106: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 106: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 107...
+   📊 Página 107: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 107: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 108...
+   📊 Página 108: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 108: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 109...
+   📊 Página 109: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 109: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 110...
+   📊 Página 110: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 110: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 111...
+   📊 Página 111: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 111: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 112...
+   📊 Página 112: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 112: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 113...
+   📊 Página 113: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 113: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 114...
+   📊 Página 114: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 114: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 115...
+   📊 Página 115: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 115: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 116...
+   📊 Página 116: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 116: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 117...
+   📊 Página 117: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 117: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 118...
+   📊 Página 118: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 118: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 119...
+   📊 Página 119: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 119: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 120...
+   📊 Página 120: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 120: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 121...
+   📊 Página 121: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 121: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 122...
+   📊 Página 122: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 122: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 123...
+   📊 Página 123: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 123: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 124...
+   📊 Página 124: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 124: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 125...
+   📊 Página 125: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 125: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 126...
+   📊 Página 126: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 126: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 127...
+   📊 Página 127: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 127: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 128...
+   📊 Página 128: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 128: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 129...
+   📊 Página 129: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 129: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 130...
+   📊 Página 130: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 130: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 131...
+   📊 Página 131: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 131: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 132...
+   📊 Página 132: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 132: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 133...
+   📊 Página 133: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 133: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 134...
+   📊 Página 134: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 134: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 135...
+   📊 Página 135: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 135: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 136...
+   📊 Página 136: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 136: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 137...
+   📊 Página 137: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 137: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 138...
+   📊 Página 138: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 138: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 139...
+   📊 Página 139: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 139: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 140...
+   📊 Página 140: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 140: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 141...
+   📊 Página 141: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 141: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 142...
+   📊 Página 142: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 142: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 143...
+   📊 Página 143: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 143: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 144...
+   📊 Página 144: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 144: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 145...
+   📊 Página 145: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 145: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 146...
+   📊 Página 146: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 146: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 147...
+   📊 Página 147: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 147: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 148...
+   📊 Página 148: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 148: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 149...
+   📊 Página 149: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 149: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 150...
+   📊 Página 150: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 150: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 151...
+   📊 Página 151: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 151: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 152...
+   📊 Página 152: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 152: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 153...
+   📊 Página 153: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 153: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 154...
+   📊 Página 154: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 154: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 155...
+   📊 Página 155: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 155: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 156...
+   📊 Página 156: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 156: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 157...
+   📊 Página 157: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 157: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 158...
+   📊 Página 158: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 158: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 159...
+   📊 Página 159: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 159: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 160...
+   📊 Página 160: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 160: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 161...
+   📊 Página 161: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 161: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 162...
+   📊 Página 162: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 162: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 163...
+   📊 Página 163: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 163: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 164...
+   📊 Página 164: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 164: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 165...
+   📊 Página 165: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 165: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 166...
+   📊 Página 166: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 166: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 167...
+   📊 Página 167: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 167: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 168...
+   📊 Página 168: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 168: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 169...
+   📊 Página 169: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 169: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 170...
+   📊 Página 170: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 170: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 171...
+   📊 Página 171: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 171: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 172...
+   📊 Página 172: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 172: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 173...
+   📊 Página 173: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 173: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 174...
+   📊 Página 174: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 174: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 175...
+   📊 Página 175: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 175: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 176...
+   📊 Página 176: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 176: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 177...
+   📊 Página 177: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 177: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 178...
+   📊 Página 178: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 178: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 179...
+   📊 Página 179: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 179: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 180...
+   📊 Página 180: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 180: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 181...
+   📊 Página 181: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 181: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 182...
+   📊 Página 182: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 182: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 183...
+   📊 Página 183: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 183: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 184...
+   📊 Página 184: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 184: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 185...
+   📊 Página 185: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 185: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 186...
+   📊 Página 186: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 186: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 187...
+   📊 Página 187: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 187: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 188...
+   📊 Página 188: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 188: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 189...
+   📊 Página 189: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 189: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 190...
+   📊 Página 190: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 190: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 191...
+   📊 Página 191: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 191: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 192...
+   📊 Página 192: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 192: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 193...
+   📊 Página 193: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 193: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 194...
+   📊 Página 194: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 194: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 195...
+   📊 Página 195: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 195: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 196...
+   📊 Página 196: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 196: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 197...
+   📊 Página 197: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 197: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 198...
+   📊 Página 198: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 198: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 199...
+   📊 Página 199: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 199: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 200...
+   📊 Página 200: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 200: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 201...
+   📊 Página 201: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 201: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 202...
+   📊 Página 202: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 202: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 203...
+   📊 Página 203: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 203: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 204...
+   📊 Página 204: 100 cards recebidos
+   📍 Next page: Disponível
+   📈 Página 204: 0 cards excluídos (0 erros)
+      🚺 Mulheres: 0 | 🚹 Homens ≤12: 0
+
+📄 Processando página 205...
+   📊 Página 205: 100 cards recebidos
+   📍 Next page: Disponível
+   ❌ Erro na página 205: 'NoneType' object has no attribute 'upper'
+
+🎯 CONCLUSÃO OTIMIZADA:
+   📊 Total de cards excluídos: 0
+   🚺 Mulheres: 0
+   🚹 Homens ≤ 12 anos: 0
+
+============================================================
+📊 RELATÓRIO FINAL DE EXCLUSÃO OTIMIZADA
+============================================================
+📄 Watch List: MA/CIVIL (ID 24)
+⏰ Duração total: 0:04:22.130052
+📄 Total de cards processados: 0
+✅ Cards excluídos com sucesso: 0
+   🚺 Mulheres (todas idades): 0
+   🚹 Homens (≤ 12 anos): 0
+❌ Erros durante exclusão: 0
+📝 Log salvo em: cards_excluídos_otimizado.txt
+🎯 Otimização: Uma única passagem (vs duas passagens no script anterior)
+Logout realizado.
+
+✅ Operação otimizada concluída!
