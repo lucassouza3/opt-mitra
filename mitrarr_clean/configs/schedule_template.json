@@ -1,0 +1,20 @@
+{
+  "jobs": [
+    {
+      "name": "adiciona-nists",
+      "command": ["python", "-m", "infra.cli.main", "run-with-retry", "--label", "adiciona-nists", "--max-attempts", "3", "--delay", "60", "--", "python", "-m", "infra.cli.main", "register-nist", "--id", "PLACEHOLDER", "--source", "SOURCE", "--file", "PATH_TO_FILE"]
+    },
+    {
+      "name": "envia-findface",
+      "command": ["python", "-m", "infra.cli.main", "send-to-findface", "--batch-size", "50"]
+    },
+    {
+      "name": "volume-check",
+      "command": ["python", "-m", "infra.cli.main", "check-volume", "--history", "/opt/findface/configs/volume.json", "--label", "adiciona_nists", "--current", "0"]
+    },
+    {
+      "name": "run-cli-script",
+      "command": ["python", "-m", "infra.cli.main", "run-with-retry", "--label", "stimar", "--max-attempts", "3", "--delay", "120", "--", "python", "-m", "infra.cli.main", "run-schedule", "--config", "/opt/findface/configs/stimar.json"]
+    }
+  ]
+}

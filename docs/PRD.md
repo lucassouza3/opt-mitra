@@ -86,6 +86,7 @@ Cada user story deve iniciar como teste falhando (Red) → implementação míni
    - _19/11/2025_: CLI inicial (`infra/cli/main.py`) + repositórios/gateway locais criados para suportar TDD.
 4. **Fase 3 – Scheduler e Orquestração**
    - Introduzir serviço `scheduler` (Celery Beat, APScheduler ou Temporal) que substitua `check_and_run`, respeitando os horários definidos no crontab padronizado.
+   - _19/11/2025_: CLI ganhou o comando `run-schedule` e o módulo `infra/scheduler/runner.py` que lê configurações JSON (ver `configs/schedule_template.json`).
    - Expor API REST/GraphQL para pausar/resumir jobs.
 5. **Fase 4 – Monitoramento e Alertas**
    - Centralizar logs (JSON) + enviar métricas para Prometheus/ELK.
