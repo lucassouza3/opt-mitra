@@ -1,10 +1,12 @@
-﻿#!/usr/bin/env bash
+#!/usr/bin/env bash
 set -euo pipefail
 
-if ! command -v poetry >/dev/null 2>&1; then
-  echo 'Poetry não encontrado. Instale antes de continuar.'
-  exit 1
+if [ -d ".venv" ]; then
+  . .venv/Scripts/activate >/dev/null 2>&1 || . .venv/bin/activate
+else
+  python -m venv .venv
+  . .venv/Scripts/activate >/dev/null 2>&1 || . .venv/bin/activate
 fi
 
-poetry install
-poetry run pre-commit install || true
+pip install --upgrade pip
+pip install -r requirements-dev.txt

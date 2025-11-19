@@ -82,6 +82,8 @@ Cada user story deve iniciar como teste falhando (Red) → implementação míni
 3. **Fase 2 – Casos de Uso Core**
    - Implementar `RegisterNist` + `SyncRelationships` + `SendToFindFace` com TDD.
    - Recriar CLI para substituir `run_*.sh` (ex.: `python -m apps.acquisition.run job=detran_diario`).
+   - _19/11/2025_: Casos de uso e entidades-base implementados em `mitrarr_clean/core`.
+   - _19/11/2025_: CLI inicial (`infra/cli/main.py`) + repositórios/gateway locais criados para suportar TDD.
 4. **Fase 3 – Scheduler e Orquestração**
    - Introduzir serviço `scheduler` (Celery Beat, APScheduler ou Temporal) que substitua `check_and_run`, respeitando os horários definidos no crontab padronizado.
    - Expor API REST/GraphQL para pausar/resumir jobs.
@@ -232,9 +234,12 @@ Este tutorial precisa ser revisado e expandido conforme as novas funcionalidades
 
 ## 14. Estratégia Anti-Estagnação e Monitoramento Proativo
 - **Heartbeats automáticos**: cada job deve publicar a hora da última execução bem-sucedida em um repositório central (banco ou Prometheus). Um alarme dispara se passar mais de 7 dias sem atualização.
+    - _19/11/2025_: Implementado monitor de heartbeats (`infra/monitoring/heartbeats.py`) integrado à CLI para registrar as execuções.
 - **Validação de volume**: criar tarefas diárias que comparam o número de registros processados com médias históricas; se ficar abaixo de um limite, deve gerar alerta.
+    - _19/11/2025_: Criado `VolumeValidator` em `infra/monitoring/volume_guard.py` com testes (`tests/infra/monitoring/test_volume_guard.py`).
 - **Auto-recovery**: o scheduler deve tentar religar jobs com `Retry` configurado e, após N falhas, abrir chamado automático (e-mail/Telegram).
 - **Verificações do cron**: script `cron_guardian.sh` roda a cada hora, lista o `crontab`, valida timestamps (`last_run_at`) e envia alerta se algum job estiver atrasado em mais de 7 dias.
+    - _19/11/2025_: Disponibilizado `infra/monitoring/cron_guardian.py` para ser executado via cron e alertar jobs atrasados.
 - **Teste sintético**: gerar arquivos de exemplo semanalmente para garantir que o pipeline está aceitando entradas. Se o arquivo de teste não chegar ao destino, o sistema dispara alerta.
 - **Auditoria de cargas FindFace**: scripts periódicos comparam o total de registros locais vs FindFace; divergência acima de 5% aciona análise.
 - **Playbook de contingência**: manter instruções claras (item 13.8) para reiniciar serviços, limpar filas e rodar jobs manualmente, garantindo que o sistema não fique meses parado sem ninguém notar.
