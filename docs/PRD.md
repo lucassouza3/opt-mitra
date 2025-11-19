@@ -92,6 +92,7 @@ Cada user story deve iniciar como teste falhando (Red) → implementação míni
 5. **Fase 4 – Monitoramento e Alertas**
    - Centralizar logs (JSON) + enviar métricas para Prometheus/ELK.
    - Substituir `.out` por loggers com `structlog` e retention.
+   - _19/11/2025_: Criado `AlertDispatcher` + comando `emit-alert` para registro manual/automático de alertas.
 6. **Fase 5 – Migração/Go-Live**
    - Executar pipelines em paralelo (novo x legado) e comparar resultados.
    - Trocar gradualmente crons para apontar ao novo scheduler.

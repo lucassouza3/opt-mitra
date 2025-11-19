@@ -14,7 +14,7 @@ from core.exceptions import UseCaseError
 from core.use_cases import RegisterNistInput
 from infra.auto_recovery import RetryRunner
 from infra.container import build_container, get_data_dir
-from infra.monitoring import VolumeValidator
+from infra.monitoring import Alert, AlertDispatcher, VolumeValidator
 from infra.scheduler import JobScheduler, SchedulerResult, load_schedule
 
 
@@ -79,6 +79,15 @@ def build_parser() -> argparse.ArgumentParser:
         help="Executa o scheduler baseado em um arquivo de configuração JSON.",
     )
     run_schedule.add_argument("--config", type=Path, required=True, help="Arquivo JSON com os jobs.")
+
+    emit_alert = subparsers.add_parser(
+        "emit-alert",
+        help="Registra manualmente um alerta no log de monitoramento.",
+    )
+    emit_alert.add_argument("--type", required=True, help="Tipo do alerta (ex.: volume_drop).")
+    emit_alert.add_argument("--job", required=True, help="Nome do job relacionado.")
+    emit_alert.add_argument("--severity", default="info", help="Gravidade do alerta.")
+    emit_alert.add_argument("--message", required=True, help="Mensagem descritiva.")
 
     return parser
 
@@ -165,6 +174,22 @@ def handle_run_schedule(args: argparse.Namespace) -> int:
     return 0 if result.success else 1
 
 
+def handle_emit_alert(data_dir: Path, args: argparse.Namespace) -> int:
+    """Registra manualmente um alerta no arquivo de logs."""
+    log_path = data_dir / "logs" / "alerts.log"
+    dispatcher = AlertDispatcher(log_path)
+    dispatcher.send(
+        Alert(
+            alert_type=args.type,
+            job=args.job,
+            severity=args.severity,
+            message=args.message,
+        )
+    )
+    print(f"Alerta '{args.type}' registrado para o job '{args.job}'.")
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     """Ponto de entrada principal utilizado pelo CLI e pelos testes."""
     parser = build_parser()
@@ -185,6 +210,8 @@ def main(argv: list[str] | None = None) -> int:
             return handle_run_with_retry(args)
         elif args.command == "run-schedule":
             return handle_run_schedule(args)
+        elif args.command == "emit-alert":
+            return handle_emit_alert(data_dir, args)
         else:  # pragma: no cover
             parser.error("Comando desconhecido.")
     except (UseCaseError, ValueError, FileNotFoundError, json.JSONDecodeError) as exc:

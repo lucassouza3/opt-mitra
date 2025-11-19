@@ -238,3 +238,22 @@ def test_run_schedule_reports_failure(monkeypatch: pytest.MonkeyPatch, tmp_path:
     monkeypatch.setattr("infra.cli.main.JobScheduler", lambda: DummyScheduler())
 
     assert run_cli(["run-schedule", "--config", str(config)]) == 1
+
+
+def test_emit_alert_creates_entry(tmp_path: Path) -> None:
+    """O comando emit-alert precisa registrar a mensagem no log."""
+    args = [
+        "emit-alert",
+        "--type",
+        "manual",
+        "--job",
+        "job_a",
+        "--severity",
+        "info",
+        "--message",
+        "Teste",
+    ]
+    result = run_cli(args)
+    assert result == 0
+    log_file = Path(get_data_dir()) / "logs" / "alerts.log"
+    assert "manual" in log_file.read_text(encoding="utf-8")
